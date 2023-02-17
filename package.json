@@ -1,0 +1,34 @@
+{
+    "name": "skeleton-dusk-react-app-vite",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "start": "vite --force",
+        "build": "tsc && vite build --outDir=build",
+        "preview": "vite preview --outDir=build"
+    },
+    "dependencies": {
+        "@xams-framework/common": "^0.0.3",
+        "@xams-framework/dusk": "^1.0.10",
+        "@xams-framework/dusk-plugin-vite": "^1.0.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.19",
+        "@types/react": "^18.0.27",
+        "@types/react-dom": "^18.0.10",
+        "@types/redux-logger": "^3.0.9",
+        "@vitejs/plugin-react": "^3.1.0",
+        "@vitejs/plugin-react-swc": "^3.1.0",
+        "@xams-framework/vite-plugin-dusk": "^0.0.2",
+        "@types/lodash": "^4.14.191",
+        "postcss-preset-env": "^8.0.1",
+        "prettier": "^2.8.3",
+        "sass": "^1.58.0",
+        "typescript": "^4.9.3",
+        "vite": "^4.1.1"
+    }
+}
